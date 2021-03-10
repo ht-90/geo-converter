@@ -1,0 +1,8 @@
+# web framework
+Django
+
+# web server
+gunicorn
+
+# config
+python-dotenv
