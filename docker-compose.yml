@@ -8,3 +8,4 @@ services:
     image: geo-converter:latest
     volumes:
       - .:/workspace
+      - ./.git/.:/usr/src/.git
