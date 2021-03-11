@@ -1,0 +1,10 @@
+# Docker-compose yml version
+version: '3'
+# Container information
+services:
+  # Project development container
+  geo-converter:
+    build: .
+    image: geo-converter:latest
+    volumes:
+      - .:/workspace
